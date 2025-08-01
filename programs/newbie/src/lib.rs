@@ -1,7 +1,6 @@
 use anchor_lang::prelude::*;
 use anchor_lang::system_program::{transfer, Transfer};
 
-// NOTE: You MUST use this exact program ID for the challenge
 declare_id!("22222222222222222222222222222222222222222222");
 
 #[program]
